@@ -447,12 +447,6 @@ def seq_Jacobi_Gosper2(C1,C2,C3,x1,x2,y1,y2,lim):
     ninput=0
 
     for i in range(lim):
-        print(C1)
-        print('SPACE')
-        print(C2)
-        print('SPACE')
-        print(C3)
-        print('SPACEfine')
 
         if C3[0][0]!=0 and C3[0][1]!=0 and C3[0][2]!=0 and C3[1][0]!=0 and C3[1][1]!=0 and C3[1][2]!=0 and C3[2][0]!=0 and C3[2][1]!=0 and C3[2][2]!=0:
             if floor(C1[0][0]/C3[0][0])==floor(C1[0][1]/C3[0][1])==floor(C1[0][2]/C3[0][2])==floor(C1[1][0]/C3[1][0])==floor(C1[1][1]/C3[1][1])==floor(C1[1][2]/C3[1][2])==floor(C1[2][0]/C3[2][0])==floor(C1[2][1]/C3[2][1])==floor(C1[2][2]/C3[2][2]) and floor(C2[0][0]/C3[0][0])==floor(C2[0][1]/C3[0][1])==floor(C2[0][2]/C3[0][2])==floor(C2[1][0]/C3[1][0])==floor(C2[1][1]/C3[1][1])==floor(C2[1][2]/C3[1][2])==floor(C2[2][0]/C3[2][0])==floor(C2[2][1]/C3[2][1])==floor(C2[2][2]/C3[2][2]) and sign(C3[0][0])==sign(C3[0][1])==sign(C3[0][2])==sign(C3[1][0])==sign(C3[1][1])==sign(C3[1][2])==sign(C3[2][0])==sign(C3[2][1])==sign(C3[2][2]):
